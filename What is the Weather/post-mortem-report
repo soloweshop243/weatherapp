@@ -1,0 +1,45 @@
+Post-Mortem Report
+
+Incident Overview
+
+On Friday, April 28,I experienced an outage that lasted for 6 hours. During this time, I wasn't able to access What is the Weather APP, which resulted in shortening the project.
+
+# Post Mortem Report: Whats the Weather App Launch
+
+## Overview
+
+The Whats the Weather App was launched on April 30, 2023, with the main objective of enhancing my skills in working with a simple project involving HTML, JavaScript, CSS, and external APIs, handling errors, and creating user-friendly interfaces. This Post Mortem Report aims to analyze the issues that arose during the launch and to identify the root causes and potential solutions.
+
+## Issue 1: API Connection Errors
+
+One of the main issues that I experienced was difficulty connecting to the weather API.
+
+### Root Cause
+
+The root cause of this issue was unexpected traffic after launch, which exceeded the capacity of the API and caused connection errors and delays on their end.
+
+### Resolution
+
+To resolve this issue, I immediately contacted the weather API support team and eventually received additional server capacity that helped optimize my API requests.
+
+## Issue 2: Error Handling Issues
+
+This issue was errors in the app's error handling, particularly in relation to displaying error messages.
+
+### Root Cause
+
+The root cause of this issue was proper placement of the error handler.
+
+### Resolution
+
+To resolve this issue, I reviewed and updated the app's error handling mechanisms, including implementing more specific error messages and ensuring that error messages were displayed consistently throughout the app.
+
+## Lessons Learned
+
+Overall, the launch of the Whats the Weather App was a valuable learning experience for me, and highlighted several key areas for improvement on the front end:
+
+- Thorough testing and load testing prior to launch is critical to ensure that the app can handle expected traffic and usage.
+- User feedback and testing should be a continuous process, with regular updates and improvements based on user input.
+- Clear communication and coordination with API providers is essential to ensure accurate and reliable data.
+
+Moving forward, I will continue to iterate and improve the Whats the Weather App and to apply the lessons learned from this launch to future projects.
